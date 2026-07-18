@@ -1,3 +1,5 @@
+package TwoSum;
+
 import java.util.HashMap;
 
 public class TwoSun {
