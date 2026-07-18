@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 public class TwoSun {
     public int[] twoSum(int[] nums, int target) {
         var list = new HashMap<Integer, Integer>();
