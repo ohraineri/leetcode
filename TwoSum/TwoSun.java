@@ -1,12 +1,12 @@
 public class TwoSun {
     public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int y = 0; y < nums.length; y++) {
-                if(i == y)
-                    continue;
-                if (nums[i] + nums[y] == target)
-                    return new int[] {i, y};
-            }
+        var list = new HashMap<Integer, Integer>();
+
+        for(int i = 0; i < nums.length; i++) {
+            if (list.containsKey(target - nums[i]))
+                return new int[]{list.get(target - nums[i]), i};
+
+            list.put(nums[i], i);
         }
         return null;
     }
