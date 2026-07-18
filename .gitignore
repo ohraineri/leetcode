@@ -1,0 +1,50 @@
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Build directories
+/target/
+/build/
+/out/
+/bin/
+
+# IntelliJ
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Gradle
+/.gradle/
+
+# Maven
+/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+
+# TwoSum specific
+/.classpath
+/.project
